@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero {
+    width: 100%;
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #6c757d;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.footer {
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+.dropdown-item {
+    color: #333;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Responsive adjustments (example) */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
