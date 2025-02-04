@@ -76,15 +76,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("sssss", $first_name, $last_name, $email, $hashed_password, $phone);
 
     // // Execute the query and check for success
-    // if ($stmt->execute()) {
-    //     $_SESSION['success'] = "Registration successful! You can now log in.";
-    //     header("Location: upload_photo.php"); // Redirect to login page
-    //     exit;
-    // } else {
-    //     $_SESSION['errors'] = ["Error: " . $stmt->error];
-    //     header("Location: register.php");
-    //     exit;
-    // }
 
     if ($stmt->execute()) {
         header("Location: upload_photo.php?email=" . urlencode($email));

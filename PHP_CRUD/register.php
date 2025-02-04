@@ -6,23 +6,6 @@
     <title>Sign Up</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <style>
-        /* Styling for password visibility toggle */
-        .password-wrapper {
-            position: relative;
-        }
-        .toggle-password {
-            position: absolute;
-            right: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-            cursor: pointer;
-            color: gray;
-        }
-        .toggle-password:hover {
-            color: black;
-        }
-    </style>
 </head>
 <body>
 
